@@ -13,3 +13,20 @@
     --foreground: #ededed;
   }
 }
+ @layer utilities{
+  .custom-scrollbar{
+    overflow-x: auto;
+    scrollbar-gutter: stable;
+  }
+  .custom-scrollbar::-webkit-scrollbar{
+    width: 30px;
+    height: 5px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb{
+    background-color: rgba(73,73,73,0.73);
+    border: 1px solid transparent;
+    border-radius: 20px;
+  }
+ }
+
