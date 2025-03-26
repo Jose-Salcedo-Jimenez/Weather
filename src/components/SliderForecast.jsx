@@ -8,7 +8,7 @@ export const SliderForecast = ({ hourly }) => {
     return (
         <section className={` ${inter.className} w-3/4 h-56 shadow-[2px_2px_20px_0px_rgba(0,0,0,0.3)] rounded-xl flex flex-col justify-center mt-8 p-[0rem_0.8rem_0rem_0.8rem]`}>
             <h4 className=" text-[#373737] font-medium">Today's Forecast</h4>
-            <ul className="flex overflow-hidden items-center mt-5 overflow-x-auto custom-scrollbar ">
+            <ul className="flex overflow-hidden items-center mt-5 overflow-x-auto ">
 
                 {
                     data.map(hour => (
